@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "718E27D31E884BDB005F3C62"
-               BuildableName = "Move to Front"
-               BlueprintName = "Move to Front"
-               ReferencedContainer = "container:Move to Front.xcodeproj">
+               BlueprintIdentifier = "710E60F41E8850FC0049394C"
+               BuildableName = "huffman"
+               BlueprintName = "huffman"
+               ReferencedContainer = "container:Burrows Wheeler Compression.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "718E27D31E884BDB005F3C62"
-            BuildableName = "Move to Front"
-            BlueprintName = "Move to Front"
-            ReferencedContainer = "container:Move to Front.xcodeproj">
+            BlueprintIdentifier = "710E60F41E8850FC0049394C"
+            BuildableName = "huffman"
+            BlueprintName = "huffman"
+            ReferencedContainer = "container:Burrows Wheeler Compression.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "718E27D31E884BDB005F3C62"
-            BuildableName = "Move to Front"
-            BlueprintName = "Move to Front"
-            ReferencedContainer = "container:Move to Front.xcodeproj">
+            BlueprintIdentifier = "710E60F41E8850FC0049394C"
+            BuildableName = "huffman"
+            BlueprintName = "huffman"
+            ReferencedContainer = "container:Burrows Wheeler Compression.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "718E27D31E884BDB005F3C62"
-            BuildableName = "Move to Front"
-            BlueprintName = "Move to Front"
-            ReferencedContainer = "container:Move to Front.xcodeproj">
+            BlueprintIdentifier = "710E60F41E8850FC0049394C"
+            BuildableName = "huffman"
+            BlueprintName = "huffman"
+            ReferencedContainer = "container:Burrows Wheeler Compression.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

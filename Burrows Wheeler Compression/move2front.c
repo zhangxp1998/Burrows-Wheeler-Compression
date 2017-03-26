@@ -93,6 +93,9 @@ void decode(FILE *in, FILE *out)
 
 int main(int argc, const char * argv[])
 {
-    
+    if(argv[1][0] == '-')
+        encode(stdin, stdout);
+    else if(argv[1][0] == '+')
+        decode(stdin, stdout);
     return 0;
 }

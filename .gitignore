@@ -1,0 +1,9 @@
+DerivedData/
+*.xcindexdb
+
+
+DerivedData/Burrows Wheeler Compression/Index/Debug/macosx10.12-x86_64/Burrows Wheeler Compression.xcindex/db.xcindexdb-shm
+
+*.xcindexdb-shm
+
+*.xcindexdb-wal

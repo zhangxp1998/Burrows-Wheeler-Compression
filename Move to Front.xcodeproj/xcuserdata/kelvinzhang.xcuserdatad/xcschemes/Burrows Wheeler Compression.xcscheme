@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "718E27D31E884BDB005F3C62"
-               BuildableName = "Burrows Wheeler Compression"
-               BlueprintName = "Burrows Wheeler Compression"
-               ReferencedContainer = "container:Burrows Wheeler Compression.xcodeproj">
+               BuildableName = "Move to Front"
+               BlueprintName = "Move to Front"
+               ReferencedContainer = "container:Move to Front.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "718E27D31E884BDB005F3C62"
-            BuildableName = "Burrows Wheeler Compression"
-            BlueprintName = "Burrows Wheeler Compression"
-            ReferencedContainer = "container:Burrows Wheeler Compression.xcodeproj">
+            BuildableName = "Move to Front"
+            BlueprintName = "Move to Front"
+            ReferencedContainer = "container:Move to Front.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "718E27D31E884BDB005F3C62"
-            BuildableName = "Burrows Wheeler Compression"
-            BlueprintName = "Burrows Wheeler Compression"
-            ReferencedContainer = "container:Burrows Wheeler Compression.xcodeproj">
+            BuildableName = "Move to Front"
+            BlueprintName = "Move to Front"
+            ReferencedContainer = "container:Move to Front.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "718E27D31E884BDB005F3C62"
-            BuildableName = "Burrows Wheeler Compression"
-            BlueprintName = "Burrows Wheeler Compression"
-            ReferencedContainer = "container:Burrows Wheeler Compression.xcodeproj">
+            BuildableName = "Move to Front"
+            BlueprintName = "Move to Front"
+            ReferencedContainer = "container:Move to Front.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

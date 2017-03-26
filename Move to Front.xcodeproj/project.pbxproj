@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		718E27D81E884BDC005F3C62 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 718E27D71E884BDC005F3C62 /* main.c */; };
+		718E27D81E884BDC005F3C62 /* move2front.c in Sources */ = {isa = PBXBuildFile; fileRef = 718E27D71E884BDC005F3C62 /* move2front.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		718E27D41E884BDB005F3C62 /* Burrows Wheeler Compression */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Burrows Wheeler Compression"; sourceTree = BUILT_PRODUCTS_DIR; };
-		718E27D71E884BDC005F3C62 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		718E27D41E884BDB005F3C62 /* Move to Front */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Move to Front"; sourceTree = BUILT_PRODUCTS_DIR; };
+		718E27D71E884BDC005F3C62 /* move2front.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = move2front.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		718E27CB1E884BDB005F3C62 = {
 			isa = PBXGroup;
 			children = (
-				718E27D61E884BDB005F3C62 /* Burrows Wheeler Compression */,
+				718E27D61E884BDB005F3C62 /* Move To Front */,
 				718E27D51E884BDB005F3C62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,26 @@
 		718E27D51E884BDB005F3C62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				718E27D41E884BDB005F3C62 /* Burrows Wheeler Compression */,
+				718E27D41E884BDB005F3C62 /* Move to Front */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		718E27D61E884BDB005F3C62 /* Burrows Wheeler Compression */ = {
+		718E27D61E884BDB005F3C62 /* Move To Front */ = {
 			isa = PBXGroup;
 			children = (
-				718E27D71E884BDC005F3C62 /* main.c */,
+				718E27D71E884BDC005F3C62 /* move2front.c */,
 			);
+			name = "Move To Front";
 			path = "Burrows Wheeler Compression";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		718E27D31E884BDB005F3C62 /* Burrows Wheeler Compression */ = {
+		718E27D31E884BDB005F3C62 /* Move to Front */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 718E27DB1E884BDC005F3C62 /* Build configuration list for PBXNativeTarget "Burrows Wheeler Compression" */;
+			buildConfigurationList = 718E27DB1E884BDC005F3C62 /* Build configuration list for PBXNativeTarget "Move to Front" */;
 			buildPhases = (
 				718E27D01E884BDB005F3C62 /* Sources */,
 				718E27D11E884BDB005F3C62 /* Frameworks */,
@@ -77,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = "Burrows Wheeler Compression";
+			name = "Move to Front";
 			productName = "Burrows Wheeler Compression";
-			productReference = 718E27D41E884BDB005F3C62 /* Burrows Wheeler Compression */;
+			productReference = 718E27D41E884BDB005F3C62 /* Move to Front */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 718E27CF1E884BDB005F3C62 /* Build configuration list for PBXProject "Burrows Wheeler Compression" */;
+			buildConfigurationList = 718E27CF1E884BDB005F3C62 /* Build configuration list for PBXProject "Move to Front" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				718E27D31E884BDB005F3C62 /* Burrows Wheeler Compression */,
+				718E27D31E884BDB005F3C62 /* Move to Front */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				718E27D81E884BDC005F3C62 /* main.c in Sources */,
+				718E27D81E884BDC005F3C62 /* move2front.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +234,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		718E27CF1E884BDB005F3C62 /* Build configuration list for PBXProject "Burrows Wheeler Compression" */ = {
+		718E27CF1E884BDB005F3C62 /* Build configuration list for PBXProject "Move to Front" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				718E27D91E884BDC005F3C62 /* Debug */,
@@ -242,7 +243,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		718E27DB1E884BDC005F3C62 /* Build configuration list for PBXNativeTarget "Burrows Wheeler Compression" */ = {
+		718E27DB1E884BDC005F3C62 /* Build configuration list for PBXNativeTarget "Move to Front" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				718E27DC1E884BDC005F3C62 /* Debug */,

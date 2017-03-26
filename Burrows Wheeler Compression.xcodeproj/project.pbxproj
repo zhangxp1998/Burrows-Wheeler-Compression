@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		710E60ED1E8850CC0049394C /* burrows_wheeler.c in Sources */ = {isa = PBXBuildFile; fileRef = 710E60EC1E8850CC0049394C /* burrows_wheeler.c */; };
 		710E60F81E8850FC0049394C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 710E60F71E8850FC0049394C /* main.c */; };
+		710E60FE1E8853B00049394C /* circular_suffix_array.c in Sources */ = {isa = PBXBuildFile; fileRef = 710E60FC1E8853B00049394C /* circular_suffix_array.c */; };
 		718E27D81E884BDC005F3C62 /* move2front.c in Sources */ = {isa = PBXBuildFile; fileRef = 718E27D71E884BDC005F3C62 /* move2front.c */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		710E60EC1E8850CC0049394C /* burrows_wheeler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = burrows_wheeler.c; sourceTree = "<group>"; };
 		710E60F51E8850FC0049394C /* huffman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = huffman; sourceTree = BUILT_PRODUCTS_DIR; };
 		710E60F71E8850FC0049394C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		710E60FC1E8853B00049394C /* circular_suffix_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circular_suffix_array.c; sourceTree = "<group>"; };
+		710E60FD1E8853B00049394C /* circular_suffix_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circular_suffix_array.h; sourceTree = "<group>"; };
 		718E27D41E884BDB005F3C62 /* move2front */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = move2front; sourceTree = BUILT_PRODUCTS_DIR; };
 		718E27D71E884BDC005F3C62 /* move2front.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = move2front.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				710E60EC1E8850CC0049394C /* burrows_wheeler.c */,
+				710E60FC1E8853B00049394C /* circular_suffix_array.c */,
+				710E60FD1E8853B00049394C /* circular_suffix_array.h */,
 			);
 			name = "Burrows Wheeler Transform";
 			path = bwt;
@@ -228,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				710E60ED1E8850CC0049394C /* burrows_wheeler.c in Sources */,
+				710E60FE1E8853B00049394C /* circular_suffix_array.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +401,7 @@
 				710E60F01E8850CC0049394C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		710E60F91E8850FC0049394C /* Build configuration list for PBXNativeTarget "huffman" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +410,7 @@
 				710E60FB1E8850FC0049394C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		718E27CF1E884BDB005F3C62 /* Build configuration list for PBXProject "Burrows Wheeler Compression" */ = {
 			isa = XCConfigurationList;

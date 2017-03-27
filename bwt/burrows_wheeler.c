@@ -39,6 +39,7 @@ static void encode(FILE *in, FILE *out)
 {
     const int len = (int)available(in);
     char *buf = malloc(len);
+    fread(buf, 1, len, in);
     CircularSuffix *csa = new_circular_suffix_array(buf, len);
     int first = get_first(csa, len);
     
@@ -51,6 +52,7 @@ static void encode(FILE *in, FILE *out)
         fputc(buf[(len - 1 + csa[i].j) % len], out);
     
     free(buf);
+    free_circular_suffix_array(csa);
 }
 
 // apply Burrows-Wheeler inverse transform, reading from standard input and

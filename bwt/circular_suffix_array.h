@@ -12,10 +12,12 @@
 #include <stdio.h>
 
 typedef struct{
+    size_t N;
     const char *data;
     int j;
 }CircularSuffix;
 
 CircularSuffix *new_circular_suffix_array(char *str, size_t len);
+void free_circular_suffix_array(CircularSuffix *csa);
 
 #endif /* circular_suffix_array_h */

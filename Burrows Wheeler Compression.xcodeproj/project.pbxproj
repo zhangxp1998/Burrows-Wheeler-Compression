@@ -8,9 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		710E60ED1E8850CC0049394C /* burrows_wheeler.c in Sources */ = {isa = PBXBuildFile; fileRef = 710E60EC1E8850CC0049394C /* burrows_wheeler.c */; };
-		710E60F81E8850FC0049394C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 710E60F71E8850FC0049394C /* main.c */; };
 		710E60FE1E8853B00049394C /* circular_suffix_array.c in Sources */ = {isa = PBXBuildFile; fileRef = 710E60FC1E8853B00049394C /* circular_suffix_array.c */; };
-		718E27D81E884BDC005F3C62 /* move2front.c in Sources */ = {isa = PBXBuildFile; fileRef = 718E27D71E884BDC005F3C62 /* move2front.c */; };
+		711942871E8890A700C029DE /* move2front.c in Sources */ = {isa = PBXBuildFile; fileRef = 718E27D71E884BDC005F3C62 /* move2front.c */; };
+		711942881E8890BE00C029DE /* bits-io.c in Sources */ = {isa = PBXBuildFile; fileRef = 7119426D1E88907D00C029DE /* bits-io.c */; };
+		711942891E8890BE00C029DE /* bits-io.h in Sources */ = {isa = PBXBuildFile; fileRef = 7119426E1E88907D00C029DE /* bits-io.h */; };
+		7119428A1E8890BE00C029DE /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 7119426F1E88907D00C029DE /* decoder.c */; };
+		7119428B1E8890BE00C029DE /* decoder.h in Sources */ = {isa = PBXBuildFile; fileRef = 711942701E88907D00C029DE /* decoder.h */; };
+		7119428C1E8890BE00C029DE /* encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 711942711E88907D00C029DE /* encoder.c */; };
+		7119428D1E8890BE00C029DE /* encoder.h in Sources */ = {isa = PBXBuildFile; fileRef = 711942721E88907D00C029DE /* encoder.h */; };
+		711942901E8890BE00C029DE /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 711942751E88907D00C029DE /* huffman.c */; };
+		711942911E8890BE00C029DE /* huffman.h in Sources */ = {isa = PBXBuildFile; fileRef = 711942761E88907D00C029DE /* huffman.h */; };
+		711942921E8890BE00C029DE /* hzip.h in Sources */ = {isa = PBXBuildFile; fileRef = 711942771E88907D00C029DE /* hzip.h */; };
+		711942931E8890BE00C029DE /* pqueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 711942781E88907D00C029DE /* pqueue.c */; };
+		711942941E8890BE00C029DE /* pqueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 711942791E88907D00C029DE /* pqueue.h */; };
+		711942951E8890BE00C029DE /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 7119427A1E88907D00C029DE /* table.c */; };
+		711942961E8890BE00C029DE /* table.h in Sources */ = {isa = PBXBuildFile; fileRef = 7119427B1E88907D00C029DE /* table.h */; };
+		711942971E8890BE00C029DE /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7119427C1E88907D00C029DE /* tree.c */; };
+		711942981E8890BE00C029DE /* tree.h in Sources */ = {isa = PBXBuildFile; fileRef = 7119427D1E88907D00C029DE /* tree.h */; };
+		7119429C1E88928300C029DE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 711942991E8890DC00C029DE /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,9 +62,26 @@
 		710E60EA1E8850CC0049394C /* bwt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bwt; sourceTree = BUILT_PRODUCTS_DIR; };
 		710E60EC1E8850CC0049394C /* burrows_wheeler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = burrows_wheeler.c; sourceTree = "<group>"; };
 		710E60F51E8850FC0049394C /* huffman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = huffman; sourceTree = BUILT_PRODUCTS_DIR; };
-		710E60F71E8850FC0049394C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		710E60FC1E8853B00049394C /* circular_suffix_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circular_suffix_array.c; sourceTree = "<group>"; };
 		710E60FD1E8853B00049394C /* circular_suffix_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circular_suffix_array.h; sourceTree = "<group>"; };
+		7119426D1E88907D00C029DE /* bits-io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "bits-io.c"; path = "../../../../Downloads/huffman-proj-student/bits-io.c"; sourceTree = "<group>"; };
+		7119426E1E88907D00C029DE /* bits-io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "bits-io.h"; path = "../../../../Downloads/huffman-proj-student/bits-io.h"; sourceTree = "<group>"; };
+		7119426F1E88907D00C029DE /* decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = decoder.c; path = "../../../../Downloads/huffman-proj-student/decoder.c"; sourceTree = "<group>"; };
+		711942701E88907D00C029DE /* decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decoder.h; path = "../../../../Downloads/huffman-proj-student/decoder.h"; sourceTree = "<group>"; };
+		711942711E88907D00C029DE /* encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = encoder.c; path = "../../../../Downloads/huffman-proj-student/encoder.c"; sourceTree = "<group>"; };
+		711942721E88907D00C029DE /* encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = encoder.h; path = "../../../../Downloads/huffman-proj-student/encoder.h"; sourceTree = "<group>"; };
+		711942731E88907D00C029DE /* huffc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffc.c; path = "../../../../Downloads/huffman-proj-student/huffc.c"; sourceTree = "<group>"; };
+		711942741E88907D00C029DE /* huffd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffd.c; path = "../../../../Downloads/huffman-proj-student/huffd.c"; sourceTree = "<group>"; };
+		711942751E88907D00C029DE /* huffman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = huffman.c; path = "../../../../Downloads/huffman-proj-student/huffman.c"; sourceTree = "<group>"; };
+		711942761E88907D00C029DE /* huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = huffman.h; path = "../../../../Downloads/huffman-proj-student/huffman.h"; sourceTree = "<group>"; };
+		711942771E88907D00C029DE /* hzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hzip.h; path = "../../../../Downloads/huffman-proj-student/hzip.h"; sourceTree = "<group>"; };
+		711942781E88907D00C029DE /* pqueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pqueue.c; path = "../../../../Downloads/huffman-proj-student/pqueue.c"; sourceTree = "<group>"; };
+		711942791E88907D00C029DE /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = "../../../../Downloads/huffman-proj-student/pqueue.h"; sourceTree = "<group>"; };
+		7119427A1E88907D00C029DE /* table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = table.c; path = "../../../../Downloads/huffman-proj-student/table.c"; sourceTree = "<group>"; };
+		7119427B1E88907D00C029DE /* table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = table.h; path = "../../../../Downloads/huffman-proj-student/table.h"; sourceTree = "<group>"; };
+		7119427C1E88907D00C029DE /* tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tree.c; path = "../../../../Downloads/huffman-proj-student/tree.c"; sourceTree = "<group>"; };
+		7119427D1E88907D00C029DE /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tree.h; path = "../../../../Downloads/huffman-proj-student/tree.h"; sourceTree = "<group>"; };
+		711942991E8890DC00C029DE /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		718E27D41E884BDB005F3C62 /* move2front */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = move2front; sourceTree = BUILT_PRODUCTS_DIR; };
 		718E27D71E884BDC005F3C62 /* move2front.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = move2front.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +125,24 @@
 		710E60F61E8850FC0049394C /* Huffman Encoding */ = {
 			isa = PBXGroup;
 			children = (
-				710E60F71E8850FC0049394C /* main.c */,
+				7119426D1E88907D00C029DE /* bits-io.c */,
+				7119426E1E88907D00C029DE /* bits-io.h */,
+				7119426F1E88907D00C029DE /* decoder.c */,
+				711942701E88907D00C029DE /* decoder.h */,
+				711942711E88907D00C029DE /* encoder.c */,
+				711942721E88907D00C029DE /* encoder.h */,
+				711942731E88907D00C029DE /* huffc.c */,
+				711942741E88907D00C029DE /* huffd.c */,
+				711942751E88907D00C029DE /* huffman.c */,
+				711942761E88907D00C029DE /* huffman.h */,
+				711942771E88907D00C029DE /* hzip.h */,
+				711942781E88907D00C029DE /* pqueue.c */,
+				711942791E88907D00C029DE /* pqueue.h */,
+				7119427A1E88907D00C029DE /* table.c */,
+				7119427B1E88907D00C029DE /* table.h */,
+				7119427C1E88907D00C029DE /* tree.c */,
+				7119427D1E88907D00C029DE /* tree.h */,
+				711942991E8890DC00C029DE /* main.c */,
 			);
 			name = "Huffman Encoding";
 			path = huffman;
@@ -241,7 +290,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				710E60F81E8850FC0049394C /* main.c in Sources */,
+				7119429C1E88928300C029DE /* main.c in Sources */,
+				711942881E8890BE00C029DE /* bits-io.c in Sources */,
+				711942891E8890BE00C029DE /* bits-io.h in Sources */,
+				7119428A1E8890BE00C029DE /* decoder.c in Sources */,
+				7119428B1E8890BE00C029DE /* decoder.h in Sources */,
+				7119428C1E8890BE00C029DE /* encoder.c in Sources */,
+				7119428D1E8890BE00C029DE /* encoder.h in Sources */,
+				711942901E8890BE00C029DE /* huffman.c in Sources */,
+				711942911E8890BE00C029DE /* huffman.h in Sources */,
+				711942921E8890BE00C029DE /* hzip.h in Sources */,
+				711942931E8890BE00C029DE /* pqueue.c in Sources */,
+				711942941E8890BE00C029DE /* pqueue.h in Sources */,
+				711942951E8890BE00C029DE /* table.c in Sources */,
+				711942961E8890BE00C029DE /* table.h in Sources */,
+				711942971E8890BE00C029DE /* tree.c in Sources */,
+				711942981E8890BE00C029DE /* tree.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				718E27D81E884BDC005F3C62 /* move2front.c in Sources */,
+				711942871E8890A700C029DE /* move2front.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

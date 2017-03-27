@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5CB9655E6F8EBB69D1CDAE20338A7955D61CB34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5CB9655E6F8EBB69D1CDAE20338A7955D61CB34" : 9223372036854775807,
+    "BFC7DE787A1A7296C89B1428030771A608C0358E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8905B35E-4116-4653-B81F-8329D99B1C99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5CB9655E6F8EBB69D1CDAE20338A7955D61CB34" : "Burrows%20Wheeler%20Compression\/",
+    "BFC7DE787A1A7296C89B1428030771A608C0358E" : "..\/..\/Downloads\/huffman-proj-student"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Burrows Wheeler Compression",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Burrows Wheeler Compression.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhangxp1998\/Burrows-Wheeler-Compression.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5CB9655E6F8EBB69D1CDAE20338A7955D61CB34"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zhangxp1998\/Huffman.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BFC7DE787A1A7296C89B1428030771A608C0358E"
+    }
+  ]
+}
